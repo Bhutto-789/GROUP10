@@ -9,9 +9,9 @@ SOLUTION:
 2)	By configuring the Tiva C microcontroller’s timer to measure the interval between zero-crossing pulses and calculate frequency as the reciprocal of this period for real-time accuracy. 
 3)	Indicating the frequency data on LED, with an alert system to signal any deviations from the expected range, helping to monitor grid stability
 
-BLOCK DIAGRAM:
+
 ![GRID FREQUENCY MEASUREMENT docx - Word 07-11-2024 22_13_43](https://github.com/user-attachments/assets/e0e25a4c-7312-42fb-abd3-60f8dd885ee1)
+BLOCK DIAGRAM:
 
-FLOWCHART:
 ![GRID FREQUENCY MEASUREMENT docx - Word 07-11-2024 23_01_43](https://github.com/user-attachments/assets/b86338cb-74ed-4b49-baa1-eace0b720d8f)
-
+FLOWCHART:
