@@ -10,8 +10,8 @@ SOLUTION:
 3)	Indicating the frequency data on LED, with an alert system to signal any deviations from the expected range, helping to monitor grid stability
 
 
-![GRID FREQUENCY MEASUREMENT docx - Word 07-11-2024 22_13_43](https://github.com/user-attachments/assets/e0e25a4c-7312-42fb-abd3-60f8dd885ee1)
-BLOCK DIAGRAM:
+BLOCK DIAGRAM:![GRID FREQUENCY MEASUREMENT docx - Word 07-11-2024 22_13_43](https://github.com/user-attachments/assets/e0e25a4c-7312-42fb-abd3-60f8dd885ee1)
 
-![GRID FREQUENCY MEASUREMENT docx - Word 07-11-2024 23_01_43](https://github.com/user-attachments/assets/b86338cb-74ed-4b49-baa1-eace0b720d8f)
-FLOWCHART:
+
+FLOWCHART:![GRID FREQUENCY MEASUREMENT docx - Word 07-11-2024 23_01_43](https://github.com/user-attachments/assets/b86338cb-74ed-4b49-baa1-eace0b720d8f)
+
