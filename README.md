@@ -21,13 +21,13 @@ CODE:
 #include <stdint.h>
 #include "tm4c123gh6pm.h"
 
-// Global Variables
+
 uint32_t timePeriod;
 uint32_t startTime, endTime;
 float tick, period, freq;
 const float timePerTick = 62.5e-9; 
 
-// Function to Initialize Timer 1 for Edge-Time Mode
+
 void Timer1_Init(void) {
     SYSCTL_RCGCTIMER_R |= 0x02;           
     while ((SYSCTL_PRTIMER_R & 0x02) == 0) {}
@@ -40,7 +40,7 @@ void Timer1_Init(void) {
     TIMER1_CTL_R |= 0x01;                
 }
 
-// Function to Initialize Port B for Timer Capture Input
+
 void PortB_Init(void) {
     SYSCTL_RCGCGPIO_R |= 0x02;           
     while ((SYSCTL_PRGPIO_R & 0x02) == 0) {}
@@ -50,7 +50,7 @@ void PortB_Init(void) {
     GPIO_PORTB_DEN_R |= 0x10;             
 }
 
-// Function to Initialize Port F for LEDs
+
 void PortF_Init(void) {
     SYSCTL_RCGCGPIO_R |= 0x20;            
     while ((SYSCTL_PRGPIO_R & 0x20) == 0) {}
@@ -83,7 +83,7 @@ void Delay_ms(uint32_t delay) {
     for (i = 0; i < (16000 * delay); i++) {}
 }
 
-// Main Program
+
 int main(void) {
     PortB_Init();         
     PortF_Init();         
